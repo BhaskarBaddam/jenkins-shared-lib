@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('test') {
       steps {
-        welcome()
+        welcome(Hello everyone)
       }
     }
   }
